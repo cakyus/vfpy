@@ -1,0 +1,8 @@
+
+DEFINE CLASS ClassLog AS ClassCustom
+
+	FUNCTION Add
+		LPARAMETERS lcText
+		
+	ENDFUNC
+ENDDEF

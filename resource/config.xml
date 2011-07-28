@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:lsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="config">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="cname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="cvalue">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ctype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<config>
+		<cname>ClassConfigParserVersion</cname>
+		<cvalue>1</cvalue>
+		<ctype>C</ctype>
+	</config>
+</VFPData>

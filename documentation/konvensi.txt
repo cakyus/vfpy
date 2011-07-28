@@ -1,0 +1,11 @@
+COMMENT
+------------------
+simbol comment yang digunakan dianjurkan untuk menggunkan simbol "&&" (tanpa tanda kutip)
+
+why ?
+- penggunaan simbol "*" untuk comment akan rancu dengan simbol "*" sebagai simbol operator perkalian
+- pembuatan syntax highlighter pada banyak source editor akan sulit
+
+HIDDEN AND PROTECTED PROPERTIES AND FUNCTIONS
+---------------------------------------------
+di awali dengan huruf "_"

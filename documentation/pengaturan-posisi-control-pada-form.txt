@@ -1,0 +1,29 @@
+PENGATURAN POSISI CONTROL PADA FORM
+
+Urutan Event Pada Form
+	Load 
+	Init
+	Paint
+	Activate
+
+Ditambahkan code untuk memaksimalkan ukuran form pada Form.Load
+	This.WindowState = 2
+
+Hasil seperti yang ada di bawah
+	Event		Name		Width
+	-----		----		-----
+	Load		_2YA0QSTRV	375
+	Init		_2YA0QSTRV	375
+	Paint		_2YA0QSTRV	1024
+	Activate	_2YA0QSTRV	1024
+	Resize		_2YA0QSTRV	1024
+	GotFocus	_2YA0QSTRV	1024
+	Paint		_2YA0QSTRV	1024
+	Paint		_2YA0QSTRV	1024
+	Paint		_2YA0QSTRV	1024
+	Paint		_2YA0QSTRV	1024
+
+Kesimpulan
+	- Pengaturan posisi kontrol pada form paling baik dilakukan pada saat Form.Activate
+	- Form.GotFocus baru akan dipanggil saat Form.Show
+	- Form.Paint lebih baik di kosongkan
