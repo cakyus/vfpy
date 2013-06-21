@@ -1,4 +1,5 @@
 @echo off
-pskill -t vfp7
-pskill -t oovfp
+taskkill /f /im vfp7.exe
+taskkill /f /im vfp9.exe
+taskkill /f /im oovfp.exe
 del /q temp\*
