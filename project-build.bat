@@ -1,5 +1,5 @@
 @echo off
-pskill -t vfp7
-pskill -t oovfp
+if not exist temp mkdir temp
+if not exist library mkdir library
 cscript /H:CScript /Nologo script\build.vbs
 pause
